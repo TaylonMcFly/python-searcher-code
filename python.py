@@ -2,7 +2,7 @@ import requests
 import webbrowser
 from bs4 import BeautifulSoup
 from urllib.parse import unquote
-
+# Библиотеки 
 SEARCH_ENGINES = {
     "DuckDuckGo": "https://duckduckgo.com/html/?q=",
     "Brave": "https://search.brave.com/search?q="
